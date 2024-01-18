@@ -72,14 +72,8 @@ Welcome to the Pythonic Coding Standards and Introduction to Web Concepts projec
 
 The project is organized to help you navigate through different modules and concepts. Here's a brief overview of the project structure:
 
-- **/module1:** Contains files related to Bash scripting limitations.
-- **/module2:** Covers API fundamentals.
-- **/module3:** Explores REST API concepts.
-- **/module4:** Dives into microservices architecture.
-- **/module5:** Focuses on the CSV format.
-- **/module6:** Addresses the JSON format.
-- **/pythonic_coding_standards:** Demonstrates Pythonic coding standards.
-- **/readme_images:** Stores images used in the README.
+- **api/:** Contains files related to making requests to API.
+- **README.md:** Project description.
 
 Feel free to explore each module, follow the guidelines, and engage with the concepts. If you have any questions or need clarification, don't hesitate to reach out.
 
