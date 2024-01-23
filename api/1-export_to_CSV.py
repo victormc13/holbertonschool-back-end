@@ -34,8 +34,8 @@ def get_employee_todo_progress(employee_id):
         csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
 
         for task in todos_data:
-            task_completed_status = 'True' if task.get('completed')
-            else 'False'
+            task_completed_status = 'True' if task.get('completed')\
+                                    else 'False'
             formatted_row = [user_id,
                              username,
                              task_completed_status,
