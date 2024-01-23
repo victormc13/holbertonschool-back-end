@@ -4,9 +4,9 @@ Script that retrieves and displays the progress of an employee's TODO list
 using the JSONPlaceholder API.
 """
 
+import csv
 import requests
 import sys
-import csv
 
 
 def get_employee_todo_progress(employee_id):
